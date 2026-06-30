@@ -1,14 +1,76 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-BR">
 <head>
-    <title>DevOps na prática</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Projeto DevOps</title>
+
+    <style>
+        body{
+            margin:0;
+            font-family:Arial, Helvetica, sans-serif;
+            background:#0f172a;
+            color:#fff;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            height:100vh;
+        }
+
+        .card{
+            background:#1e293b;
+            padding:40px;
+            border-radius:15px;
+            width:650px;
+            text-align:center;
+            box-shadow:0 10px 30px rgba(0,0,0,.4);
+        }
+
+        h1{
+            color:#38bdf8;
+            margin-bottom:20px;
+        }
+
+        h2{
+            color:#22c55e;
+            margin-top:30px;
+        }
+
+        p{
+            font-size:18px;
+            line-height:1.6;
+        }
+
+        footer{
+            margin-top:35px;
+            color:#94a3b8;
+            font-size:14px;
+        }
+    </style>
+
 </head>
 
 <body>
 
-<h1>Atualização automática funcionando!</h1>
+<div class="card">
 
-<p>Deploy automático com Cloudflare Pages</p>
+<h1>🚀 Projeto DevOps</h1>
+
+<p>
+Este site foi desenvolvido como atividade prática da disciplina de DevOps.
+</p>
+
+<p>
+O deploy é realizado automaticamente utilizando <strong>GitHub Actions</strong> e <strong>Cloudflare Pages</strong>, demonstrando um pipeline de Integração Contínua (CI) e Entrega Contínua (CD).
+</p>
+
+<h2>✅ Pipeline funcionando com sucesso!</h2>
+
+<footer>
+Desenvolvido por Gabriel Silveira
+</footer>
+
+</div>
 
 </body>
 </html>
